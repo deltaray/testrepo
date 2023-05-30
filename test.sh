@@ -6,4 +6,8 @@ VAR=$1
 
 if [ "$VAR" = "foo" ]; then
     echo bar
+elif [ "$VAR" = "bar"]; then
+    echo foo derp
+else
+    echo You did not provide an argument
 fi
